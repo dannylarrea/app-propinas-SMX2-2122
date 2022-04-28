@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- hoja de estilos -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- título de página -->
+    <title>App Propinas</title>
+    <!-- ícono de pàgina -->
+    <!-- fuentes -->
+    <!-- javascript -->
+    <script src="js/main.js"></script>
+</head>
+<body class="flex">
+    <div class="row bordes">
+        <!-- Nombre de la app (funcionalidad) -->
+        <div class="column-1">
+            <h1>Calculador de propinas</h1>
+        </div>
+        <!-- formulario de la app -->
+        <div class="column-1">
+            <input type="number" name="" id="total" placeholder="total de la cuenta...">
+            <br>
+            <select name="" id="servicio">
+                <option value="0">0% pésimo</option>
+                <option value="0.15">15% bueno</option>
+                <option value="0.30">30% excelente</option>
+            </select>
+            <br>
+            <input type="number" name="" id="personas" placeholder="¿cuantas personas van a pagar?">
+            <br>
+            <input type="submit" value="calcular" onclick="calcProp()">    
+        </div>
+    </div>
+
+</body>
+</html>
